@@ -9,7 +9,7 @@ import barCode from "/src/assets/images/bar-code.png";
 const HeroSection: React.FC = () => {
   return (
     <div className="hero-section">
-      <header className="text-white flex justify-between items-center py-12 px-8">
+      <header className="text-white flex justify-between items-center py-10 px-8">
         <div className="flex items-center">
           <img src={birdLogo} alt="Bird Logo" className="w-6 mr-2.5" />
           <h3 className="font-extralight text-lg font-pangaia">
@@ -30,17 +30,17 @@ const HeroSection: React.FC = () => {
         <img
           src={injuryImg}
           alt="prevent injury"
-          className="w-40 ml-15 mt-14 mb-10"
+          className="w-40 ml-8 mt-10 mb-8"
         />
         <img
           src={accelerateImg}
           alt="accelerate progress"
-          className="w-40 mb-10 float-right mr-16"
+          className="w-40 mb-8 float-right mr-6"
         />
         <img
           src={boostImg}
           alt="boost strength"
-          className="w-40 ml-10 clear-both"
+          className="w-40 ml-4 clear-both"
         />
       </div>
 
