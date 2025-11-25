@@ -9,19 +9,19 @@ import barCode from "/src/assets/images/bar-code.png";
 const HeroSection: React.FC = () => {
   return (
     <div className="hero-section">
-      <header className="text-white flex justify-between items-center py-10 px-8">
+      <header className="text-white flex justify-between items-center py-5 px-4">
         <div className="flex items-center">
           <img src={birdLogo} alt="Bird Logo" className="w-6 mr-2.5" />
           <h3 className="font-extralight text-lg font-pangaia">
             R<span className="font-pangaia-italic">e</span>solute{" "}
-            <span className="opacity-30 mx-2">&gt;</span> optiME
+            <span className="opacity-30 mx-1.5">&gt;</span> optiME
           </h3>
         </div>
         <img src={fitterifyLogo} alt="Fitterify Logo" className="w-18" />
       </header>
 
       <div>
-        <h1 className="text-white font-pangaia font-extralight text-5xl text-center px-7 ">
+        <h1 className="text-white font-pangaia font-extralight text-4xl text-center px-5 mt-10">
           Your Biology,{" "}
           <span className="font-dm-sans">
             engineered <br /> for the gym floor
@@ -30,12 +30,12 @@ const HeroSection: React.FC = () => {
         <img
           src={injuryImg}
           alt="prevent injury"
-          className="w-40 ml-8 mt-10 mb-8"
+          className="w-40 ml-8 mt-15 mb-5"
         />
         <img
           src={accelerateImg}
           alt="accelerate progress"
-          className="w-40 mb-8 float-right mr-6"
+          className="w-40 mb-3 float-right mr-6"
         />
         <img
           src={boostImg}
@@ -44,14 +44,14 @@ const HeroSection: React.FC = () => {
         />
       </div>
 
-      <div>
-        <h3 className="font-pangaia text-white text-2xl text-center font-extralight mt-20">
+      <div className="mt-10">
+        <h3 className="font-pangaia text-white text-2xl text-center font-extralight">
           Unlock science led pathways to <br /> strength, stamina & sustained
           results
         </h3>
       </div>
 
-      <div className="flex flex-col space-y-10 items-center md:flex-row md:items-end md:space-y-0 md:justify-between pt-14 md:pt-10 pb-15 md:px-10">
+      <div className="flex flex-col space-y-10 items-center md:flex-row md:items-end md:space-y-0 md:justify-between pt-10 pb-10 md:px-10">
         <div className="flex items-center ">
           <a
             href="http://www.theresolute.club"
