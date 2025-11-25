@@ -21,13 +21,16 @@ const HeroSection: React.FC = () => {
       </header>
 
       <div>
-        <h1 className="text-white font-pangaia font-extralight text-5xl text-center px-12 py-8">
-          Your Biology, engineered for the gym floor
+        <h1 className="text-white font-pangaia font-extralight text-5xl text-center px-7 py-8">
+          Your Biology,{" "}
+          <span className="font-dm-sans">
+            engineered <br /> for the gym floor
+          </span>
         </h1>
         <img
           src={injuryImg}
           alt="prevent injury"
-          className="w-40 py-10 ml-30"
+          className="w-40 py-10 ml-22"
         />
         <img
           src={accelerateImg}
@@ -37,7 +40,7 @@ const HeroSection: React.FC = () => {
         <img
           src={boostImg}
           alt="boost strength"
-          className="w-40 ml-20 clear-both"
+          className="w-40 ml-18 clear-both"
         />
       </div>
 
@@ -48,13 +51,18 @@ const HeroSection: React.FC = () => {
         </h3>
       </div>
 
-      <div className="flex items-end justify-between pt-10 pb-15 px-10">
-        <div className="flex items-center">
-          <address className="bg-white py-1 px-7 rounded-xl font-medium">
+      <div className="flex flex-col space-y-10 items-center md:flex-row md:items-end md:space-y-0 md:justify-between pt-14 md:pt-10 pb-15 md:px-10">
+        <div className="flex items-center ">
+          <a
+            href="http://www.theresolute.club"
+            target='_blank'
+            rel="noopener noreferrer"
+            className="bg-white py-2 px-7 rounded-r-xl rounded-l-3xl font-medium text-sm hover:underline hover:text-gray-600 transition-all duration-150"
+          >
             theresolute.club
-          </address>
+          </a>
           <span className="bg-white w-3 h-2.5"></span>
-          <span className="bg-white py-1 px-7 rounded-xl font-medium">
+          <span className="bg-white py-2 px-7 rounded-l-xl rounded-r-3xl font-medium text-sm">
             +91 6360265906
           </span>
         </div>
