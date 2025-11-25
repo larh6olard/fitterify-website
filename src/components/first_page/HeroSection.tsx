@@ -44,7 +44,7 @@ const HeroSection: React.FC = () => {
         />
       </div>
 
-      <div className="mt-10">
+      <div className="mt-15">
         <h3 className="font-pangaia text-white text-2xl text-center font-extralight">
           Unlock science led pathways to <br /> strength, stamina & sustained
           results
