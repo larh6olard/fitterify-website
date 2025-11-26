@@ -77,7 +77,7 @@ const HealthOpt: React.FC = () => {
               height="28"
               viewBox="0 0 12 14"
               fill="none"
-              className="bg-white w-10 h-10 rounded-full relative p-2 top-35 md:top-54"
+              className="bg-white w-10 h-10 rounded-full relative p-2 top-39 md:top-54"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path

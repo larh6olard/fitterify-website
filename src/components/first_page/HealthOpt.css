@@ -17,8 +17,8 @@
 /* Outer dotted circle */
 .diagram-circle {
   position: relative;
-  width: 280px;
-  height: 280px;
+  width: 310px;
+  height: 310px;
   border-radius: 50%;
   border: 1.5px dotted rgba(248, 230, 215, 0.85);
   display: flex;
@@ -31,6 +31,10 @@
   .diagram-circle {
     width: 432px;
     height: 432px;
+  }
+  .diagram-centre {
+    width: 110px;
+    height: 100px;
   }
 }
 
@@ -61,8 +65,8 @@
 /* Centre circular image */
 .diagram-centre {
   position: absolute;
-  width: 110px;
-  height: 110px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   background-image: url("/src/assets/images/health-opt-component/image.png"); /* replace with real image path */
   background-size: 250px;
