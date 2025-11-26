@@ -89,20 +89,13 @@ src: local('PP Pangaia Bold Italic'), url('/pangaia-font/PPPangaia-BoldItalic-BF
   /* background-size: 100% 100%; */
   /* background-repeat: no-repeat; */
   background-position: bottom;
-  height: 320vh;
+  /* height: auto; */
   width: 100%;
 }
 
 @media screen and (width >= 48rem) {
   .team-bg-img {
-    height: 186vh;
     background-size: 100% 100%;
-  }
-}
-
-@media screen and (width >= 64rem) {
-  .team-bg-img {
-    height: 146vh
   }
 }
 

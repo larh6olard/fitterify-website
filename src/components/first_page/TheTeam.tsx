@@ -2,7 +2,7 @@ import React from 'react'
 
 const TheTeam: React.FC = () => {
   return (
-    <div className="team-bg-img">
+    <div className="team-bg-img pb-16">
       <div className="flex justify-end mb-5 px-10 pt-10 md:pt-12 md:px-12 lg:px-16 lg:pt-16">
         {/* Fitterity SVG Icon */}
         <svg
