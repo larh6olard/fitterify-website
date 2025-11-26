@@ -52,7 +52,7 @@ const TheTeam: React.FC = () => {
             <span className="bg-white px-5 py-1 rounded-4xl font-bold font-dm-sans mt-44">
               Dr. Gurmeet
             </span>
-            <span className="absolute h-5 bg-white w-4 mb-1.5"></span>
+            <span className="absolute h-5 bg-white w-4 mb-1.5 ml-1"></span>
             <span className="bg-white px-5 py-1 rounded-4xl font-bold font-dm-sans">
               Soni Bhalla
             </span>
