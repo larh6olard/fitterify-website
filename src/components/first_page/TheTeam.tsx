@@ -46,7 +46,7 @@ const TheTeam: React.FC = () => {
       </div>
 
       {/* Meet the Team */}
-      <div className="px-14 mt-10 space-y-6 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div className="px-12 md:px-14 mt-10 space-y-6 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-3 gap-5">
         <div className="member1 rounded-lg text-black">
           <div className="flex items-end justify-center">
             <span className="bg-white px-5 py-1 rounded-4xl font-bold font-dm-sans mt-44">
