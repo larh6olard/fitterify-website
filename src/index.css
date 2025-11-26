@@ -81,3 +81,9 @@ font-weight: normal;
 src: local('PP Pangaia Bold Italic'), url('/pangaia-font/PPPangaia-BoldItalic-BF654c530c8d2fa.woff') format('woff');
 }
 
+.about-img {
+  background:  url('/src/assets/images/about-resolute-component/image.png');
+  background-size: cover;
+  background-position: center;
+}
+
