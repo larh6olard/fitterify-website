@@ -30,7 +30,9 @@ const AboutResolute: React.FC = () => {
           About Resolute
         </h4>
         <h2 className="font-dm-sans text-4xl md:text-5xl leading-9 md:leading-11 mt-4 lg:text-6xl lg:leading-14">
-          India’s 360° platform for health optimisation and longevity
+          India’s 360° platform <br className="hidden lg:block" /> for health
+          optimisation <br className="hidden lg:block" />
+          and longevity
         </h2>
       </div>
 

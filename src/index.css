@@ -35,7 +35,6 @@ font-family: 'PP Pangaia Ultralight';
 src: local('PP Pangaia Ultralight'), url('/pangaia-font/PPPangaia-Ultralight-BF654c530cd00f1.woff') format('woff');
 }
 
-
 @font-face {
 font-family: 'PP Pangaia Ultralight Italic';
 src: local('PP Pangaia Ultralight Italic'), url('/pangaia-font/PPPangaia-UltralightItalic-BF654c530ca889f.woff') format('woff');
@@ -49,14 +48,12 @@ src: local('PP Pangaia Ultralight Italic'), url('/pangaia-font/PPPangaia-Ultrali
   font-family: 'PP Pangaia Ultralight Italic', sans-serif;
 }
 
-
 @font-face {
 font-family: 'PP Pangaia Medium';
 font-style: normal;
 font-weight: normal;
 src: local('PP Pangaia Medium'), url('/pangaia-font/PPPangaia-Medium-BF654c530cc86d5.woff') format('woff');
 }
-
 
 @font-face {
 font-family: 'PP Pangaia Medium Italic';
@@ -65,14 +62,12 @@ font-weight: normal;
 src: local('PP Pangaia Medium Italic'), url('/pangaia-font/PPPangaia-MediumItalic-BF654c530bedffb.woff') format('woff');
 }
 
-
 @font-face {
 font-family: 'PP Pangaia Bold';
 font-style: normal;
 font-weight: normal;
 src: local('PP Pangaia Bold'), url('/pangaia-font/PPPangaia-Bold-BF654c530cc27f8.woff') format('woff');
 }
-
 
 @font-face {
 font-family: 'PP Pangaia Bold Italic';
@@ -87,3 +82,56 @@ src: local('PP Pangaia Bold Italic'), url('/pangaia-font/PPPangaia-BoldItalic-BF
   background-position: center;
 }
 
+.team-bg-img {
+  background: linear-gradient(#dcd9d8, #B76D4A), url('/src/assets/images/the-team-component/bg-image.png');
+  background-blend-mode: color;
+  background-size: cover;
+  /* background-size: 100% 100%; */
+  /* background-repeat: no-repeat; */
+  background-position: bottom;
+  height: 320vh;
+  width: 100%;
+}
+
+@media screen and (width >= 48rem) {
+  .team-bg-img {
+    height: 186vh;
+    background-size: 100% 100%;
+  }
+}
+
+@media screen and (width >= 64rem) {
+  .team-bg-img {
+    height: 146vh
+  }
+}
+
+.member1, .member2, .member3, .member4, .member5, .member6 {
+  background-size: cover;
+  background-position: center;
+  height: 260px;
+}
+
+.member1 {
+  background-image: url('/src/assets/images/the-team-component/member1.jpg');
+}
+
+.member2 {
+  background-image: url('/src/assets/images/the-team-component/member2.jpg');
+}
+
+.member3 {
+  background-image: url('/src/assets/images/the-team-component/member3.jpg');
+}
+
+.member4 {
+  background-image: url('/src/assets/images/the-team-component/member4.jpg');
+}
+
+.member5 {
+  background-image: url('/src/assets/images/the-team-component/member5.jpg');
+}
+
+.member6 {
+  background-image: url('/src/assets/images/the-team-component/member6.png');
+}
