@@ -38,7 +38,7 @@ const AboutResolute: React.FC = () => {
       <div className="relative w-full h-[350px] flex items-center justify-center overflow-hidden md:my-10 lg:my-24">
         {/* Vector One */}
         <svg
-          className="absolute w-full top-33 md:top-20 lg:top-12"
+          className="absolute w-full top-35 md:top-20 lg:top-12"
           viewBox="0 0 595 79"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
