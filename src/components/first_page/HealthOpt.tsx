@@ -4,19 +4,6 @@ import birdLogo from "/src/assets/images/hero-component/bird-logo.png";
 
 const HealthOpt: React.FC = () => {
   return (
-    <div>
-      <main>
-        <Circle />
-      </main>
-
-    </div>
-  );
-}
-
-export default HealthOpt
-
-const Circle = () => {
-  return (
     <div className="diagram-page p-10 md:p-12">
       <div>
         <div className="flex justify-end">
@@ -44,8 +31,8 @@ const Circle = () => {
           <h4 className="font-dm-sans font-light text-sm md:text-base lg:text-lg text-[#A1A1A1] text-center mt-7">
             optiME - Total Health Optimisation
           </h4>
-          <h2 className="font-dm-sans text-[42px] md:text-5xl lg:text-6xl text-center leading-10 lg:leading-15 mt-7">
-            Real Change, from <br /> the inside out
+          <h2 className="font-dm-sans text-[42px] md:text-5xl lg:text-6xl text-center leading-13 lg:leading-16 mt-7">
+            Real Change, from <br className='hidden md:block' /> the inside out
           </h2>
         </div>
 
@@ -90,7 +77,7 @@ const Circle = () => {
               height="28"
               viewBox="0 0 12 14"
               fill="none"
-              className="bg-white w-10 h-10 rounded-full relative p-2 top-54"
+              className="bg-white w-10 h-10 rounded-full relative p-2 top-35 md:top-54"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
@@ -120,4 +107,6 @@ const Circle = () => {
       </div>
     </div>
   );
-};
+}
+
+export default HealthOpt

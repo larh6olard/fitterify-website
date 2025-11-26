@@ -45,7 +45,7 @@ const HeroSection: React.FC = () => {
           <img
             src={accelerateImg}
             alt="accelerate progress"
-            className="w-40 mb-3 float-right mr-6"
+            className="w-40 mb-6 float-right mr-6"
           />
           <img
             src={boostImg}

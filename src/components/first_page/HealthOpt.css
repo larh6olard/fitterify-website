@@ -4,7 +4,7 @@
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  background: radial-gradient(circle at top, #420B20 0%, #420B20 60%, #420B20 100%);
+  /* background: radial-gradient(circle at top, #420B20 0%, #420B20 60%, #420B20 100%); */
   color: white;
   background: linear-gradient(#420B20),
   url('/src/assets/images/health-opt-component/BG.png');
@@ -17,14 +17,21 @@
 /* Outer dotted circle */
 .diagram-circle {
   position: relative;
-  width: 432px;
-  height: 432px;
+  width: 280px;
+  height: 280px;
   border-radius: 50%;
   border: 1.5px dotted rgba(248, 230, 215, 0.85);
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 2rem auto auto auto;
+}
+
+@media screen and (width >= 48rem) {
+  .diagram-circle {
+    width: 432px;
+    height: 432px;
+  }
 }
 
 /* Diagonal lines from centre */
