@@ -36,7 +36,7 @@ const TheTeam: React.FC = () => {
         </div>
       </div>
 
-      <div className="px-14">
+      <div className="px-12 md:px-14">
         <h4 className="font-dm-sans font-light text-gray-700 text-sm md:text-xl lg:text-2xl">
           Meet the Team
         </h4>
