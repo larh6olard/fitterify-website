@@ -1,0 +1,100 @@
+
+/* Full-page background */
+.diagram-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: radial-gradient(circle at top, #420B20 0%, #420B20 60%, #420B20 100%);
+  color: white;
+  background: linear-gradient(#420B20),
+  url('/src/assets/images/health-opt-component/BG.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+
+/* Outer dotted circle */
+.diagram-circle {
+  position: relative;
+  width: 432px;
+  height: 432px;
+  border-radius: 50%;
+  border: 1.5px dotted rgba(248, 230, 215, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto auto auto;
+}
+
+/* Diagonal lines from centre */
+.diagram-line {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0)
+  );
+  top: 50%;
+  left: 50%;
+  transform-origin: center;
+}
+
+.diagram-line.line-1 {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.diagram-line.line-2 {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+/* Centre circular image */
+.diagram-centre {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-image: url("/src/assets/images/health-opt-component/image.png"); /* replace with real image path */
+  background-size: 250px;
+  background-position: center;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Labels at four sides */
+.diagram-label {
+  position: absolute;
+  text-align: centre;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.3;
+  color: #f8e6d7;
+}
+
+.label-top {
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.label-right {
+  right: 9%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.label-bottom {
+  bottom: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.label-left {
+  left: 9%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+

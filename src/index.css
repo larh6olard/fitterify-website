@@ -6,7 +6,7 @@
 }
 
 .hero-section {
-  background: url('./assets/images/hero_bg-image.jpg');
+  background: url('./assets/images/hero-component/hero_bg-image.jpg');
   background-size: cover;
   /* background-blend-mode: multiply; */
   /* height: 845px; */
@@ -18,7 +18,7 @@
 
 @media screen and (width >= 48rem) {
   .hero-section {
-    background: url('./assets/images/hero_bg-image.jpg');
+    background: url('./assets/images/hero-component/hero_bg-image.jpg');
     background-size: cover;
     /* background-blend-mode: multiply; */
     /* height: 845px; */
