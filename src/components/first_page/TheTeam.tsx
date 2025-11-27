@@ -47,7 +47,8 @@ const TheTeam: React.FC = () => {
 
       {/* Meet the Team */}
       <div className="px-12 md:px-14 mt-10 space-y-6 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-3 gap-5">
-        <div className="member1 rounded-lg text-black">
+        {/* Member One */}
+        <div className="member1 rounded-lg text-black outline outline-[#B76D4A]/30 outline-offset-1">
           <div className="flex items-end justify-center">
             <span className="bg-white px-5 py-1 rounded-4xl font-bold font-dm-sans mt-44">
               Dr. Gurmeet
@@ -62,10 +63,10 @@ const TheTeam: React.FC = () => {
             <span className="rounded-xl font-medium text-xs bg-gray-900 py-1.5 px-6">
               CHIEF MEDICAL OFFICER
             </span>
-          </p> 
+          </p>
         </div>
-
-        <div className="member2 rounded-lg text-black">
+        {/* Member Two */}
+        <div className="member2 rounded-lg text-black outline outline-[#B76D4A]/30 outline-offset-1">
           <div className="flex items-end justify-center">
             <span className="bg-white px-5 py-1 rounded-4xl font-bold font-dm-sans mt-44">
               Dr. Sneha
@@ -80,10 +81,10 @@ const TheTeam: React.FC = () => {
             <span className="rounded-xl font-medium text-xs bg-gray-900 py-1.5 px-6">
               RESIDENT DOCTOR
             </span>
-          </p> 
+          </p>
         </div>
-
-        <div className="member3 rounded-lg text-black">
+        {/* Member Three */}
+        <div className="member3 rounded-lg text-black outline outline-[#B76D4A]/30 outline-offset-1">
           <div className="flex items-end justify-center">
             <span className="bg-white px-5 py-1 rounded-4xl font-bold font-dm-sans mt-44">
               Dr. Varsha
@@ -98,10 +99,10 @@ const TheTeam: React.FC = () => {
             <span className="rounded-xl font-medium text-xs bg-gray-900 py-1.5 px-6">
               CLINICAL PHARMACOLOGIST
             </span>
-          </p> 
+          </p>
         </div>
-
-        <div className="member4 rounded-lg text-black">
+        {/* Member Four */}
+        <div className="member4 rounded-lg text-black outline outline-[#B76D4A]/30 outline-offset-1">
           <div className="flex items-end justify-center">
             <span className="bg-white px-5 py-1 rounded-4xl font-bold font-dm-sans mt-44">
               Dr. Jyotsna
@@ -116,10 +117,10 @@ const TheTeam: React.FC = () => {
             <span className="rounded-xl font-medium text-xs bg-gray-900 py-1.5 px-6">
               GYNAECOLOGIST & HORMONE SPECIALIST
             </span>
-          </p> 
+          </p>
         </div>
-
-        <div className="member5 rounded-lg text-black">
+        {/* Member Five */}
+        <div className="member5 rounded-lg text-black outline outline-[#B76D4A]/30 outline-offset-1">
           <div className="flex items-end justify-center">
             <span className="bg-white px-5 py-1 rounded-4xl font-bold font-dm-sans mt-44">
               Dikson
@@ -134,10 +135,10 @@ const TheTeam: React.FC = () => {
             <span className="rounded-xl font-medium text-xs bg-gray-900 py-1.5 px-6">
               PERFORMANCE COACH
             </span>
-          </p> 
+          </p>
         </div>
-
-        <div className="member6 rounded-lg text-black">
+        {/* Member Six */}
+        <div className="member6 rounded-lg text-black outline outline-[#B76D4A]/30 outline-offset-1">
           <div className="flex items-end justify-center">
             <span className="bg-white px-5 py-1 rounded-4xl font-bold font-dm-sans mt-44">
               Subhisha
@@ -148,10 +149,8 @@ const TheTeam: React.FC = () => {
             <span className="rounded-xl font-medium text-xs bg-gray-900 py-1.5 px-6">
               NUTRITION COACH
             </span>
-          </p> 
+          </p>
         </div>
-
-
       </div>
     </div>
   );
