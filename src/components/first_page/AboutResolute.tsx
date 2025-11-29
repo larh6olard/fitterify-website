@@ -26,7 +26,7 @@ const AboutResolute: React.FC = () => {
       </div>
 
       <div className="text-white px-10 md:px-12 lg:px-16">
-        <h4 className="font-dm-sans font-light text-gray-400 text-sm md:text-xl lg:text-2xl">
+        <h4 className="font-dm-sans font-medium text-gray-400 text-sm md:text-xl lg:text-2xl">
           About Resolute
         </h4>
         <h2 className="font-dm-sans text-4xl md:text-5xl leading-9 md:leading-11 mt-4 lg:text-6xl lg:leading-14">

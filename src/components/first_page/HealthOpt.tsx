@@ -28,7 +28,7 @@ const HealthOpt: React.FC = () => {
         </div>
 
         <div>
-          <h4 className="font-dm-sans font-light text-sm md:text-base lg:text-lg text-[#A1A1A1] text-center mt-7">
+          <h4 className="font-dm-sans font-medium text-sm md:text-base lg:text-lg text-[#A1A1A1] text-center mt-7">
             optiME - Total Health Optimisation
           </h4>
           <h2 className="font-dm-sans text-[42px] md:text-5xl lg:text-6xl text-center leading-13 lg:leading-16 mt-7">
