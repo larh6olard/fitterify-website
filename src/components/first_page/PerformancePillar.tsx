@@ -71,7 +71,7 @@ const PerformancePillar: React.FC = () => {
 
 export default PerformancePillar;
 
-const ICON_RADIUS = 170; // distance from centre to icon
+const ICON_RADIUS = 155; // distance from centre to icon
 const LINE_RADIUS = 100; // same as icon radius so line reaches icon edge
 
 const anglesDeg = [270, 330, 30, 90, 150, 210]; // Muscle, Insight, Mindset, Movement, Supplement, Nutrition
@@ -80,7 +80,7 @@ const toRad = (deg: number) => (deg * Math.PI) / 180;
 
 function CircleIcons() {
   return (
-    <div className="mt-30 w-[300px] h-[300px] mx-auto border border-dashed rounded-[50%] relative border-neutral-700/60 md:hidden">
+    <div className="mt-30 w-[280px] h-[280px] mx-auto border border-dashed rounded-[50%] relative border-neutral-700/60 md:hidden">
       {anglesDeg.map((deg, index) => {
         const rad = toRad(deg);
         const x = Math.cos(rad) * ICON_RADIUS;
