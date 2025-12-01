@@ -165,17 +165,17 @@ const HeroSection: React.FC = () => {
       </div>
 
       <div className="flex flex-col space-y-10 items-center md:flex-row md:items-end md:space-y-0 md:justify-between pt-12 pb-20 md:px-15">
-        <div className="flex items-center">
+        <div className="flex items-center justify-center space-x-2 relative">
           <a
             href="http://www.theresolute.club"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-white py-2 px-6 rounded-r-xl rounded-l-3xl font-medium text-sm hover:underline hover:text-gray-600 transition-all duration-150"
+            className="bg-white py-2 px-6 rounded-3xl font-medium text-sm hover:underline hover:text-gray-600 transition-all duration-150"
           >
             theresolute.club
           </a>
-          <span className="bg-white w-3 h-2.5"></span>
-          <span className="bg-white py-2 px-6 rounded-l-xl rounded-r-3xl font-medium text-sm">
+          <span className="bg-white w-6 ml-1 h-3 absolute"></span>
+          <span className="bg-white py-2 px-6 rounded-3xl font-medium text-sm">
             +91 6360265906
           </span>
         </div>

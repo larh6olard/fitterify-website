@@ -135,3 +135,67 @@ src: local('PP Pangaia Bold Italic'), url('/pangaia-font/PPPangaia-BoldItalic-BF
   background-size: cover;
 }
 
+.optmap-bg {
+  background: linear-gradient(#171717, #171717), url('/src/assets/images/opt-map-component/bg-img.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.why-bg-image {
+  position: relative;
+  overflow: hidden;
+  background-color: #EACAB1;
+  z-index: -10;
+}
+
+.why-bg-image::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    url('/src/assets/images/why-us-component/bg-image.png');
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: lighten;
+  opacity: 0.1;
+  z-index: -1;
+}
+
+@media screen and (width>= 48rem) {
+  .why-bg-image::before {
+    transform: rotate(90deg);
+  }
+}
+
+.footer-bg {
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+  background:
+    url('/src/assets/images/footer-component/bg-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-bg::before {
+  background-color: #6D413E;
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.5;
+  z-index: -20;
+}
+
+.resolute-app-bg {
+  background: linear-gradient(#141414, #141414);
+}
+
+.app-bg {
+  background: url('/src/assets/images/resolute-app-component/image.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
