@@ -91,7 +91,7 @@ const WhyUsPage: React.FC = () => {
         <NABL />
         <HIPAA />
         <CERT />
-        <span className="col-start-3">
+        <span className="col-start-3 md:col-auto">
           <ISO />
         </span>
       </div>
