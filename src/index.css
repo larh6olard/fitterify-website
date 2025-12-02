@@ -190,7 +190,7 @@ src: local('PP Pangaia Bold Italic'), url('/pangaia-font/PPPangaia-BoldItalic-BF
 }
 
 .resolute-app-bg {
-  background: linear-gradient(#141414, #141414);
+  background: linear-gradient(#141414, #0f0f0f);
 }
 
 .app-bg {

@@ -55,7 +55,7 @@ const ResoluteApp: React.FC = () => {
         </div>
       </div>
 
-      <div className="app-bg px-7 md:px-12 lg:px-16 text-[#F5F5F5] space-y-3 pb-20">
+      <div className="app-bg px-7 md:px-12 lg:px-16 text-[#F5F5F5] space-y-3 flex flex-col  pb-20">
         <p className="font-dm-sans md:text-lg pt-10">
           WITH RESOLUTE APP ACCESS, YOU GET:
         </p>
@@ -79,7 +79,7 @@ const ResoluteApp: React.FC = () => {
           <InterventionIcon />
           <div className="ml-2">
             <p className="font-pangaia md:text-lg">Intervention Knowledge</p>
-            <span className="font-dm-sans text-xs text-gray-400 md:text-sm">to improve your nutritionm movement, <br className="hidden md:block" /> mindset and recovery</span>
+            <span className="font-dm-sans text-xs text-gray-400 md:text-sm">to improve your nutritionm movement, <br /> mindset and recovery</span>
           </div>
         </div>
 
@@ -95,7 +95,7 @@ const ResoluteApp: React.FC = () => {
           <WellnessIcon />
           <div className="ml-2">
             <p className="font-pangaia md:text-lg">Precision Wellness Modules</p>
-            <span className="font-dm-sans text-xs text-gray-400 md:text-sm">for better sleep, smarter hydration, <br className="hidden md:block" /> stress resilience & sustainable energy</span>
+            <span className="font-dm-sans text-xs text-gray-400 md:text-sm">for better sleep, smarter hydration, <br /> stress resilience & sustainable energy</span>
           </div>
         </div>
       </div>
