@@ -45,7 +45,7 @@ const Footer: React.FC = () => {
           Step into what your <br className="hidden md:block" /> training's been
           missing
         </h3>
-        <img src={barCode} alt="" className="mx-auto size-44" />
+        <img src={barCode} alt="" className="mx-auto size-44 md:size-52 lg:size-60" />
         <p className="font pangaia text-white text-center text-lg md:text-xl lg:text-2xl font-medium">
           10,000 journeys,powered by data. <br /> Yours starts here
         </p>

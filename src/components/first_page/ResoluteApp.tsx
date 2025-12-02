@@ -55,47 +55,47 @@ const ResoluteApp: React.FC = () => {
         </div>
       </div>
 
-      <div className="app-bg h-screen lg:mt-20 px-7 pt-10 md:pt-12 md:px-12 lg:px-16 text-[#F5F5F5] space-y-5 flex flex-col justify-center">
+      <div className="app-bg h-screen lg:mt-20 px-7 pt-10 md:pt-12 md:px-12 lg:px-16 text-[#F5F5F5] space-y-5 flex flex-col justify-center md:py-14">
         <p className="font-dm-sans md:text-lg">
           WITH RESOLUTE APP ACCESS, YOU GET:
         </p>
         <div className="flex items-center">
           <HealthScoreIcon />
           <div className="ml-2">
-            <p className="font-pangaia md:text-lg lg:text-xl">Health Score & Health Data</p>
-            <span className="font-dm-sans text-xs text-gray-400 md:text-sm lg:text-base">visualized from your biomakers</span>
+            <p className="font-pangaia md:text-lg">Health Score & Health Data</p>
+            <span className="font-dm-sans text-xs text-gray-400 md:text-sm">visualized from your biomakers</span>
           </div>
         </div>
 
         <div className="flex items-center">
           <ProgressIcon />
           <div className="ml-2">
-            <p className="font-pangaia md:text-lg lg:text-xl">Journey Progree Tracking</p>
-            <span className="font-dm-sans text-xs text-gray-400 md:text-sm lg:text-base">mapping your milestone to peak health</span>
+            <p className="font-pangaia md:text-lg">Journey Progree Tracking</p>
+            <span className="font-dm-sans text-xs text-gray-400 md:text-sm">mapping your milestone to peak health</span>
           </div>
         </div>
 
         <div className="flex items-center">
           <InterventionIcon />
           <div className="ml-2">
-            <p className="font-pangaia md:text-lg lg:text-xl">Intervention Knowledge</p>
-            <span className="font-dm-sans text-xs text-gray-400 md:text-sm lg:text-base">to improve your nutritionm movement, <br className="hidden md:block" /> mindset and recovery</span>
+            <p className="font-pangaia md:text-lg">Intervention Knowledge</p>
+            <span className="font-dm-sans text-xs text-gray-400 md:text-sm">to improve your nutritionm movement, <br className="hidden md:block" /> mindset and recovery</span>
           </div>
         </div>
 
         <div className="flex items-center">
           <TaskIcon />
           <div className="ml-2">
-            <p className="font-pangaia md:text-lg lg:text-xl">Guided Tasks</p>
-            <span className="font-dm-sans text-xs text-gray-400 md:text-sm lg:text-base">personalized to your health optimization goals</span>
+            <p className="font-pangaia md:text-lg">Guided Tasks</p>
+            <span className="font-dm-sans text-xs text-gray-400 md:text-sm">personalized to your health optimization goals</span>
           </div>
         </div>
 
         <div className="flex items-center">
           <WellnessIcon />
           <div className="ml-2">
-            <p className="font-pangaia md:text-lg lg:text-xl">Precision Wellness Modules</p>
-            <span className="font-dm-sans text-xs text-gray-400 md:text-sm lg:text-base">for better sleep, smarter hydration, <br className="hidden md:block" /> stress resilience & sustainable energy</span>
+            <p className="font-pangaia md:text-lg">Precision Wellness Modules</p>
+            <span className="font-dm-sans text-xs text-gray-400 md:text-sm">for better sleep, smarter hydration, <br className="hidden md:block" /> stress resilience & sustainable energy</span>
           </div>
         </div>
       </div>

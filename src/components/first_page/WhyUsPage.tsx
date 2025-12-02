@@ -86,12 +86,12 @@ const WhyUsPage: React.FC = () => {
       </div>
 
       {/* Accreditation Icons */}
-      <div className="grid grid-cols-2 md:grid-cols-5 shadow-2xl justify-items-center space-y-5 md:space-y-0 rounded-lg items-center px-7 py-10 gap-5 mt-5 bg-transparent">
+      <div className="grid grid-cols-3 md:grid-cols-5 shadow-2xl justify-items-center space-y-5 md:space-y-0 rounded-lg items-center px-7 py-10 gap-5 mt-5 bg-transparent">
         <ICMR />
         <NABL />
         <HIPAA />
         <CERT />
-        <span className="col-span-2 md:col-span-1">
+        <span className="col-start-3">
           <ISO />
         </span>
       </div>
