@@ -39,14 +39,14 @@ const ResoluteApp: React.FC = () => {
         </div>
 
         {/* Header Section */}
-        <div className="">
+        <div className="mb-10">
           <p className="font-dm-sans font-medium text-gray-500 text-sm md:text-xl lg:text-2xl">
             Built for momentum, not just check-ins
           </p>
           <h1 className="font-dm-sans text-white text-4xl md:text-5xl mt-6 lg:text-6xl tracking-wide">
             The Resoute App
           </h1>
-          <p className="font-dm-sans md:text-lg lg:text-xl text-white/70 my-7">
+          <p className="font-dm-sans md:text-lg lg:text-xl text-white/70 mt-7">
             Using Behavioural science techniques, the Resolute App{" "}
             <br className="hidden md:block" /> helps you build habits that
             stick―through triggers, <br className="hidden md:block" /> positive
@@ -55,7 +55,7 @@ const ResoluteApp: React.FC = () => {
         </div>
       </div>
 
-      <div className="app-bg h-screen lg:mt-20 px-7 pt-10 md:pt-16 md:px-12 lg:px-16 text-[#F5F5F5] space-y-5 flex flex-col">
+      <div className="app-bg px-7 md:px-12 lg:px-16 text-[#F5F5F5] space-y-3 pb-16">
         <p className="font-dm-sans md:text-lg">
           WITH RESOLUTE APP ACCESS, YOU GET:
         </p>
