@@ -39,7 +39,7 @@ const ResoluteApp: React.FC = () => {
         </div>
 
         {/* Header Section */}
-        <div className="mb-10">
+        <div className="mb-14">
           <p className="font-dm-sans font-medium text-gray-500 text-sm md:text-xl lg:text-2xl">
             Built for momentum, not just check-ins
           </p>
@@ -55,8 +55,8 @@ const ResoluteApp: React.FC = () => {
         </div>
       </div>
 
-      <div className="app-bg px-7 md:px-12 lg:px-16 text-[#F5F5F5] space-y-3 pb-16">
-        <p className="font-dm-sans md:text-lg">
+      <div className="app-bg px-7 md:px-12 lg:px-16 text-[#F5F5F5] space-y-3 pb-20">
+        <p className="font-dm-sans md:text-lg pt-10">
           WITH RESOLUTE APP ACCESS, YOU GET:
         </p>
         <div className="flex items-center">
