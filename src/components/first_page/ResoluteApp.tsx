@@ -55,8 +55,8 @@ const ResoluteApp: React.FC = () => {
         </div>
       </div>
 
-      <div className="app-bg h-screen lg:mt-20 px-7 pt-10 md:pt-16 md:px-12 lg:px-16 text-[#F5F5F5] space-y-5 flex flex-col md:mt-14 md:pb-20">
-        <p className="font-dm-sans md:text-lg">
+      <div className="app-bg h-screen lg:mt-20 px-7 pt-10 md:pt-16 md:px-12 lg:px-16 text-[#F5F5F5] space-y-5 flex flex-col">
+        <p className="font-dm-sans md:text-lg mt-10">
           WITH RESOLUTE APP ACCESS, YOU GET:
         </p>
         <div className="flex items-center">
@@ -91,7 +91,7 @@ const ResoluteApp: React.FC = () => {
           </div>
         </div>
 
-        <div className="flex items-center">
+        <div className="flex items-center md:mb-10">
           <WellnessIcon />
           <div className="ml-2">
             <p className="font-pangaia md:text-lg">Precision Wellness Modules</p>

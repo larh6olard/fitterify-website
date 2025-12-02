@@ -199,3 +199,9 @@ src: local('PP Pangaia Bold Italic'), url('/pangaia-font/PPPangaia-BoldItalic-BF
   background-position: center;
   background-size: cover;
 }
+
+@media screen and (width >= 48rem) {
+  .app-bg {
+    background-position: top;
+  }
+}
