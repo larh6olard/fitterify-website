@@ -46,7 +46,7 @@ const ResoluteApp: React.FC = () => {
           <h1 className="font-dm-sans text-white text-4xl md:text-5xl mt-6 lg:text-6xl tracking-wide">
             The Resoute App
           </h1>
-          <p className="font-dm-sans md:text-lg lg:text-xl text-white/70 mt-7">
+          <p className="font-dm-sans md:text-lg lg:text-xl text-white/70 my-7">
             Using Behavioural science techniques, the Resolute App{" "}
             <br className="hidden md:block" /> helps you build habits that
             stick―through triggers, <br className="hidden md:block" /> positive
@@ -56,7 +56,7 @@ const ResoluteApp: React.FC = () => {
       </div>
 
       <div className="app-bg h-screen lg:mt-20 px-7 pt-10 md:pt-16 md:px-12 lg:px-16 text-[#F5F5F5] space-y-5 flex flex-col">
-        <p className="font-dm-sans md:text-lg mt-10">
+        <p className="font-dm-sans md:text-lg">
           WITH RESOLUTE APP ACCESS, YOU GET:
         </p>
         <div className="flex items-center">
@@ -91,7 +91,7 @@ const ResoluteApp: React.FC = () => {
           </div>
         </div>
 
-        <div className="flex items-center md:mb-10">
+        <div className="flex items-center">
           <WellnessIcon />
           <div className="ml-2">
             <p className="font-pangaia md:text-lg">Precision Wellness Modules</p>
