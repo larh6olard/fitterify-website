@@ -9,6 +9,8 @@ import WhyUsPage from './first_page/WhyUsPage'
 import Footer from './first_page/Footer'
 import ResoluteApp from './first_page/ResoluteApp'
 import BloodTest from './first_page/BloodTest'
+import Diagnostics from './first_page/Diagnostics'
+import Pricing from './first_page/Pricing'
 
 const FitterifyOne: React.FC = () => {
   return (
@@ -19,9 +21,11 @@ const FitterifyOne: React.FC = () => {
       <TheTeam />
       <PerformancePillar />
       <OptMap />
+      <Pricing />
       <BloodTest />
       <WhyUsPage />
       <ResoluteApp />
+      <Diagnostics />
       <Footer />
     </div>
   )

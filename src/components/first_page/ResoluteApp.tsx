@@ -55,8 +55,8 @@ const ResoluteApp: React.FC = () => {
         </div>
       </div>
 
-      <div className="app-bg px-7 md:px-12 lg:px-16 text-[#F5F5F5] space-y-3 flex flex-col  pb-20">
-        <p className="font-dm-sans md:text-lg pt-10">
+      <div className="app-bg px-7 md:px-12 lg:px-16 text-[#F5F5F5] space-y-3 flex flex-col pb-20">
+        <p className="font-dm-sans font-medium md:text-lg pt-10">
           WITH RESOLUTE APP ACCESS, YOU GET:
         </p>
         <div className="flex items-center">

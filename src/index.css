@@ -76,9 +76,22 @@ src: local('PP Pangaia Bold Italic'), url('/pangaia-font/PPPangaia-BoldItalic-BF
 }
 
 .about-img {
-  background:  url('/src/assets/images/about-resolute-component/image.png');
-  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  z-index: -10;
+}
+
+.about-img::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    url('/src/assets/images/about-resolute-component/image.png');
   background-position: center;
+  background-size: cover;
+  background-blend-mode: lighten;
+  opacity: 0.2;
+  z-index: -1;
 }
 
 .team-bg-img {
@@ -204,4 +217,33 @@ src: local('PP Pangaia Bold Italic'), url('/pangaia-font/PPPangaia-BoldItalic-BF
   .app-bg {
     background-position: top;
   }
+}
+
+.diagnostic-bg {
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+  background:
+    url('/src/assets/images/diagnostic-component/bg-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.diagnostic-bg::before {
+  background-color: #B76D4A;
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.7;
+  z-index: -20;
+}
+
+.rope-img {
+  background: linear-gradient(#f8f8f9, #f8f8f9), url('/src/assets/images/pricing-component/new-rope.jpg');
+  background-blend-mode: color;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 415px;
 }
