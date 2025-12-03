@@ -32,12 +32,10 @@
   box-shadow: 0 0 0 3px rgba(253, 231, 243, 0.4);
 }
 
-/* Dashed separators under section titles */
 .timeline-section-separator {
   border-top: 1px dashed rgba(252, 230, 244, 0.55);
 }
 
-/* Tidy layout on very small screens */
 @media (max-width: 767px) {
   .timeline-line {
     display: none;
