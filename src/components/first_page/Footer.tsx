@@ -3,7 +3,7 @@ import barCode from "/src/assets/images/footer-component/barcode.png";
 
 const Footer: React.FC = () => {
   return (
-    <div className="footer-bg px-7 pt-10 md:pt-12 md:px-12 lg:px-16 pb-20">
+    <div className="footer-bg px-5 pt-10 md:pt-12 md:px-8 lg:px-11 pb-20">
       {/* Top Right Logo Area */}
       <div className="flex justify-center mt-20">
         {/* Love SVG Icon */}

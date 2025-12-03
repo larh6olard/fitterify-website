@@ -46,7 +46,7 @@ const Pricing: React.FC = () => {
       </svg>
 
       {/* Top Right Logo Area */}
-      <div className="flex justify-end mb-5 px-7 md:px-12 lg:px-16">
+      <div className="flex justify-end mb-5 px-5 md:px-8 lg:px-11">
         {/* Fitterity SVG Icon */}
         <svg
           width="32"
@@ -79,7 +79,7 @@ const Pricing: React.FC = () => {
         </div>
       </div>
 
-      <div className="relative z-10 px-7 md:px-12 lg:px-16">
+      <div className="relative z-10 px-5 md:px-8 lg:px-11">
         {/* --- Hero Section --- */}
         <div className="mb-16">
           <div className="flex items-center gap-4 mb-2 text-gray-400 font-medium text-sm md:text-xl lg:text-2xl">
@@ -103,7 +103,7 @@ const Pricing: React.FC = () => {
         {/* --- What's Included Section --- */}
         <div className="mb-10">
           {/* Badge */}
-          <div className="inline-block bg-[#420B20] text-white px-8 py-2 rounded-full text-lg mb-10 shadow-lg">
+          <div className="inline-block bg-[#420B20] text-white px-8 py-2 rounded-full text-lg mb-10 shadow-xl">
             What’s Included
           </div>
 
@@ -195,7 +195,7 @@ const Pricing: React.FC = () => {
           </div>
 
           <div className="text-right">
-            <div className="text-gray-400 text-lg decoration-gray-300 line-through decoration-1">
+            <div className="text-gray-500 text-lg decoration-gray-300 line-through decoration-1">
               ₹8,999
             </div>
             <div className="flex items-baseline gap-2 justify-end">
@@ -203,7 +203,7 @@ const Pricing: React.FC = () => {
                 ₹8,999
               </span>
             </div>
-            <div className="text-gray-400 text-sm uppercase tracking-wide">
+            <div className="text-gray-500 text-sm uppercase tracking-wide">
               + GST
             </div>
           </div>
@@ -213,11 +213,11 @@ const Pricing: React.FC = () => {
       {/* --- Visual Element (Rope) --- */}
       <div className="rope-img mb-3"></div>
 
-      <div className="relative z-10 px-7 md:px-12 lg:px-16">
+      <div className="relative z-10 px-5 md:px-8 lg:px-11">
         {/* --- Add-ons Section --- */}
         <div className="mb-12 mt-5">
           {/* Badge */}
-          <div className="inline-block bg-[#420B20] text-white px-10 py-2 rounded-full text-lg mb-10 shadow-lg">
+          <div className="inline-block bg-[#420B20] text-white px-10 py-2 rounded-full text-lg mb-10 shadow-xl">
             Add-ons
           </div>
 

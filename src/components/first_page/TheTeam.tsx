@@ -3,7 +3,7 @@ import React from 'react'
 const TheTeam: React.FC = () => {
   return (
     <div className="team-bg-img pb-16">
-      <div className="flex justify-end mb-5 px-7 pt-10 md:pt-12 md:px-12 lg:px-16 lg:pt-16">
+      <div className="flex justify-end mb-5 px-5 pt-10 md:pt-12 md:px-8 lg:px-11 lg:pt-16">
         {/* Fitterity SVG Icon */}
         <svg
           width="32"
@@ -36,7 +36,7 @@ const TheTeam: React.FC = () => {
         </div>
       </div>
 
-      <div className="px-7 md:px-14">
+      <div className="px-5 md:px-8 lg:px-11">
         <h4 className="font-medium font-dm-sans text-gray-700 text-sm md:text-xl lg:text-2xl">
           Meet the Team
         </h4>
@@ -46,7 +46,7 @@ const TheTeam: React.FC = () => {
       </div>
 
       {/* Meet the Team */}
-      <div className="px-7 md:px-14 mt-10 space-y-6 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div className="px-5 md:px-10 mt-10 space-y-6 md:space-y-0 md:grid md:grid-cols-2 lg:grid-cols-3 gap-5">
         {/* Member One */}
         <div className="member1 rounded-lg text-black outline outline-[#B76D4A]/30 outline-offset-1">
           <div className="flex items-end justify-center">

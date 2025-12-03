@@ -79,7 +79,7 @@ const OxygenIcon = ({ className }: { className?: string }) => (
 
 const OptMap: React.FC = () => {
   return (
-    <div className="optmap-bg w-full px-7 pt-10 md:pt-12 md:px-12 lg:px-16 h-[1500px] md:pb-20">
+    <div className="optmap-bg w-full px-5 pt-10 md:pt-12 md:px-8 lg:px-11 h-[1500px] md:pb-20">
       {/* Top Right Logo Area */}
       <div className="flex justify-end mb-5">
         {/* Fitterity SVG Icon */}

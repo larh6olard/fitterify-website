@@ -8,7 +8,7 @@ import ISO from './accreditation-icons/ISO';
 
 const WhyUsPage: React.FC = () => {
   return (
-    <div className="why-bg-image px-7 pt-10 md:pt-12 md:px-12 lg:px-16 pb-20 md:pb-20">
+    <div className="why-bg-image px-5 pt-10 md:pt-12 md:px-8 lg:px-11 pb-20 md:pb-20">
       {/* Top Right Logo Area */}
       <div className="flex justify-end mb-5">
         {/* Fitterity SVG Icon */}

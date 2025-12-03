@@ -4,7 +4,7 @@ import "./Journey.css"
 const Journey: React.FC = () => {
   return (
     <section className="opti-journey-bg min-h-screen flex items-stretch font-dm-sans pb-10 md:pb-20">
-      <div className="w-full bg-black/40 px-7 pt-10 md:pt-12 md:px-12 lg:px-16">
+      <div className="w-full bg-black/40 px-5 pt-10 md:pt-12 md:px-8 lg:px-11">
         {/* Top Right Logo Area */}
         <div className="flex justify-end mb-5">
           {/* Fitterity SVG Icon */}

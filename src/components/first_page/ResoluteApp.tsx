@@ -3,7 +3,7 @@ import React from "react";
 const ResoluteApp: React.FC = () => {
   return (
     <div className="resolute-app-bg">
-      <div className="px-7 pt-10 md:pt-12 md:px-12 lg:px-16">
+      <div className="px-5 pt-10 md:pt-12 md:px-8 lg:px-11">
         {/* Top Right Logo Area */}
         <div className="flex justify-end mb-5">
           {/* Fitterity SVG Icon */}
@@ -55,7 +55,7 @@ const ResoluteApp: React.FC = () => {
         </div>
       </div>
 
-      <div className="app-bg px-7 md:px-12 lg:px-16 text-[#F5F5F5] space-y-3 flex flex-col pb-20">
+      <div className="app-bg px-5 md:px-8 lg:px-11 text-[#F5F5F5] space-y-3 flex flex-col pb-20">
         <p className="font-dm-sans font-medium md:text-lg pt-10">
           WITH RESOLUTE APP ACCESS, YOU GET:
         </p>

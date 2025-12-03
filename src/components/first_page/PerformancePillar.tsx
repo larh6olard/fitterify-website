@@ -3,7 +3,7 @@ import React from 'react'
 
 const PerformancePillar: React.FC = () => {
   return (
-    <div className="pillar-bg min-h-screen text-white font-sans relative overflow-hidden flex flex-col items-center px-7 pt-10 md:pt-12 md:px-12 lg:px-16 pb-30 md:pb-20">
+    <div className="pillar-bg min-h-screen text-white font-sans relative overflow-hidden flex flex-col items-center px-5 pt-10 md:pt-12 md:px-8 lg:px-11 pb-30 md:pb-20">
       <div className="w-full relative">
         {/* Top Right Logo Area */}
         <div className="flex justify-end mb-5">

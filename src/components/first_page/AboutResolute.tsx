@@ -4,7 +4,7 @@ import birdShape from "/src/assets/images/about-resolute-component/bird-logo.png
 const AboutResolute: React.FC = () => {
   return (
     <div className="bg-[#020000] about-img">
-      <div className="flex justify-end mb-5 px-7 pt-10 md:pt-12 md:px-12 lg:px-16 lg:pt-16">
+      <div className="flex justify-end mb-5 px-5 pt-10 md:pt-12 md:px-8 lg:px-11 lg:pt-16">
         {/* Fitterity SVG Icon */}
         <svg
           width="32"
@@ -25,7 +25,7 @@ const AboutResolute: React.FC = () => {
         </div>
       </div>
 
-      <div className="text-white px-7 md:px-12 lg:px-16">
+      <div className="text-white px-5 md:px-8 lg:px-11">
         <h4 className="font-dm-sans font-medium text-gray-400 text-sm md:text-xl lg:text-2xl">
           About Resolute
         </h4>
@@ -87,7 +87,7 @@ const AboutResolute: React.FC = () => {
         />
       </div>
 
-      <div className="font-dm-sans text-xs md:text-sm lg:text-base px-7 lg:px-14 pb-16 text-gray-400 md:flex md:space-x-10">
+      <div className="font-dm-sans text-xs md:text-sm lg:text-base px-4 lg:px-8 pb-11 text-gray-400 md:flex md:space-x-10">
         <p>
           Resolute started after realizing how little even the most committed
           high-performers know about what’s actually going on under the hood and

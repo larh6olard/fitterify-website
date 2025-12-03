@@ -9,7 +9,7 @@ import barCode from "/src/assets/images/hero-component/bar-code.png";
 const HeroSection: React.FC = () => {
   return (
     <div className="hero-section">
-      <header className="text-white flex justify-between items-center py-5 px-4 md:py-10 md:px-12 lg:px-14">
+      <header className="text-white flex justify-between items-center py-5 px-4 md:py-10 md:px-11">
         <div className="flex items-center">
           <img
             src={birdLogo}

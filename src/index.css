@@ -8,11 +8,8 @@
 .hero-section {
   background: url('./assets/images/hero-component/hero_bg-image.jpg');
   background-size: cover;
-  /* background-blend-mode: multiply; */
-  /* height: 845px; */
   width: 100%;
   background-position: center;
-  /* background-repeat: no-repeat; */
   object-fit: cover;
 }
 
@@ -23,7 +20,6 @@
     width: 100%;
     background-position: center;
     background-clip: border-box;
-    /* background-repeat: no-repeat; */
     object-fit: cover;
   }
 }
