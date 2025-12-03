@@ -1,5 +1,5 @@
 import React from "react";
-import "./OptiMEJourney.css";
+import "./OptiMeJourney.css"
 
 const OptiMEJourney: React.FC = () => {
   return (
