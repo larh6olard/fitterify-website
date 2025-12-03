@@ -11,6 +11,7 @@ import ResoluteApp from './first_page/ResoluteApp'
 import BloodTest from './first_page/BloodTest'
 import Diagnostics from './first_page/Diagnostics'
 import Pricing from './first_page/Pricing'
+import OptiMEJourney from './first_page/OptiMeJourney'
 
 const FitterifyOne: React.FC = () => {
   return (
@@ -23,6 +24,7 @@ const FitterifyOne: React.FC = () => {
       <OptMap />
       <Pricing />
       <BloodTest />
+      <OptiMEJourney />
       <WhyUsPage />
       <ResoluteApp />
       <Diagnostics />

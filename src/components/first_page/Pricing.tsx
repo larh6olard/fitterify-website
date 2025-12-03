@@ -189,13 +189,13 @@ const Pricing: React.FC = () => {
 
         {/* --- Pricing Bar --- */}
         <div className="border-t border-gray-200 border-b py-8 flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
-          <div className="max-w-md text-gray-500 text-sm leading-relaxed">
+          <div className="max-w-md text-gray-500 leading-relaxed">
             All-in-one system to help you improve strength, stamina, recovery,
             and resilience—through Data, Science & Expert Guidance
           </div>
 
           <div className="text-right">
-            <div className="text-gray-300 text-lg decoration-gray-300 line-through decoration-1">
+            <div className="text-gray-400 text-lg decoration-gray-300 line-through decoration-1">
               ₹8,999
             </div>
             <div className="flex items-baseline gap-2 justify-end">
@@ -203,7 +203,7 @@ const Pricing: React.FC = () => {
                 ₹8,999
               </span>
             </div>
-            <div className="text-gray-300 text-sm uppercase tracking-wide">
+            <div className="text-gray-400 text-sm uppercase tracking-wide">
               + GST
             </div>
           </div>

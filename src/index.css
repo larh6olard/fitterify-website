@@ -90,7 +90,7 @@ src: local('PP Pangaia Bold Italic'), url('/pangaia-font/PPPangaia-BoldItalic-BF
   background-position: center;
   background-size: cover;
   background-blend-mode: lighten;
-  opacity: 0.2;
+  opacity: 0.1;
   z-index: -1;
 }
 
@@ -98,10 +98,7 @@ src: local('PP Pangaia Bold Italic'), url('/pangaia-font/PPPangaia-BoldItalic-BF
   background: linear-gradient(#dcd9d8, #B76D4A), url('/src/assets/images/the-team-component/bg-image.png');
   background-blend-mode: color;
   background-size: cover;
-  /* background-size: 100% 100%; */
-  /* background-repeat: no-repeat; */
   background-position: bottom;
-  /* height: auto; */
   width: 100%;
 }
 
@@ -247,3 +244,4 @@ src: local('PP Pangaia Bold Italic'), url('/pangaia-font/PPPangaia-BoldItalic-BF
   background-size: cover;
   height: 415px;
 }
+
