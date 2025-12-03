@@ -1,7 +1,7 @@
 import React from "react";
-import "./OptiMeJourney.css"
+import "./Journey.css"
 
-const OptiMEJourney: React.FC = () => {
+const Journey: React.FC = () => {
   return (
     <section className="opti-journey-bg min-h-screen flex items-stretch font-dm-sans pb-10 md:pb-20">
       <div className="w-full bg-black/40 px-7 pt-10 md:pt-12 md:px-12 lg:px-16">
@@ -171,4 +171,4 @@ const OptiMEJourney: React.FC = () => {
   );
 };
 
-export default OptiMEJourney;
+export default Journey;
